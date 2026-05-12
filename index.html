@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Diary 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nebula"></div>
+<canvas id="starCanvas"></canvas>
+    <canvas id="starCanvas"></canvas>
+    <div class="aurora-glow"></div>
+
+<div id="love-container"></div>
+
+<div class="layout">
+
+  <!-- SIDEBAR BULAN -->
+  <div class="sidebar">
+    <h3>📅 Filter Bulan</h3>
+    <ul id="monthList"></ul>
+  </div>
+
+  <div class="main">
+
+    <header>💖 Love Diary Kita 💖</header>
+
+    <div class="form-box">
+
+      <!-- BULAN & TAHUN -->
+      <div class="row">
+        <select id="month">
+          <option value="Januari">Januari</option>
+          <option value="Februari">Februari</option>
+          <option value="Maret">Maret</option>
+          <option value="April">April</option>
+          <option value="Mei">Mei</option>
+          <option value="Juni">Juni</option>
+          <option value="Juli">Juli</option>
+          <option value="Agustus">Agustus</option>
+          <option value="September">September</option>
+          <option value="Oktober">Oktober</option>
+          <option value="November">November</option>
+          <option value="Desember">Desember</option>
+        </select>
+
+        <select id="year"></select>
+      </div>
+
+      <input type="text" id="title" placeholder="Judul kenangan 💕">
+      <textarea id="desc" rows="3" placeholder="Ceritakan momen 💌"></textarea>
+      <input type="file" id="image" accept="image/*">
+
+      <button onclick="saveData()">💖 Simpan Kenangan</button>
+    </div>
+
+    <div id="list"></div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
