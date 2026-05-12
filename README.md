@@ -1,0 +1,2 @@
+# diary
+jangan pernah bosen
